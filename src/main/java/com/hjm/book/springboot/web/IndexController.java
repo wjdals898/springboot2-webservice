@@ -4,14 +4,11 @@ import com.hjm.book.springboot.config.auth.LoginUser;
 import com.hjm.book.springboot.config.auth.dto.SessionUser;
 import com.hjm.book.springboot.service.posts.PostsService;
 import com.hjm.book.springboot.web.dto.PostsResponseDto;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-
-import javax.servlet.http.HttpSession;
 
 @RequiredArgsConstructor
 @Controller
