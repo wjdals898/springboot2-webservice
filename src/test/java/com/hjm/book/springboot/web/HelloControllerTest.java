@@ -1,7 +1,6 @@
 package com.hjm.book.springboot.web;
 
 import com.hjm.book.springboot.config.auth.SecurityConfig;
-import com.hjm.book.springboot.web.HelloController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
